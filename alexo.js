@@ -9,7 +9,7 @@ function mostrarMenu() {
     console.log("[5] Sair");
     console.log("------------------------------------");
 }
-
+// as funções para as escolhas
 function falaSobrePokemon() {
     console.log("Atualmente, o pokemon mais famoso é o Pikachu");
 }
@@ -31,7 +31,7 @@ let nomeUsuario = prompt("Qual é o seu nome? ");
 console.log("Olaaa, " + nomeUsuario + "espero que voce esteja bem");
 
 let opcao = "";
-while (true) { // loop infinito, até eu quebrar
+while (true) { // Escolhas a ser feita
     mostrarMenu();
     opcao = prompt("Escolha uma opção: ");
 
@@ -50,9 +50,7 @@ while (true) { // loop infinito, até eu quebrar
             break;
         case "5":
             console.log("ate maiiiis, espero ter ajudado");
-            // aqui sai do while
             process.exit(); 
-            // ou: break; + colocar uma flag
             break;
         default:
             console.log("Opção inválida.");

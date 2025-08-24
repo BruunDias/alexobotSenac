@@ -1,2 +1,0 @@
-# alexobotSenac
-chatbot simples 
