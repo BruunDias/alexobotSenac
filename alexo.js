@@ -18,7 +18,7 @@ function cantarUmaMusica() {
     console.log("Is this the real life, is this just Fantasy?");
 }
 
-function curiosidadenerd(Scottpilgrim) {
+function curiosidadenerd() {
     console.log("Voce sabia que o Scott Pilgrim teve que lutar contra 7 ex malvados so por uma garota?");
 }
 function recomendarFilme(){
